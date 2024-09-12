@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>P-animation_ejercicio</title>
+    <link rel="icon" href="imagen/javascript.png" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <style>
+      table,
+      th,
+      td {
+        color: white;
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(118, 73, 160);
+      }
+      th,
+      td {
+        padding: 4%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div id="star"></div>
+      <div class="header_superior">
+        <div class="logo">
+          <img src="imagen/javascript.png" alt="" />
+        </div>
+        <div class="search">
+          <input type="search" placeholder="buscar" />
+        </div>
+      </div>
+    </header>
+    <nav>
+      <ul class="menu-horizontal">
+        <li><a href="#">MENU</a></li>
+        <li><a href="#proyect">PROYECTOS</a></li>
+        <li><a href="#about">ACERCA DE NOSOTROS</a></li>
+        <li><a href="#server">SERVICIO</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container-center">
+        <section id="about">
+          <h2>acerca de mi</h2>
+          <p>creador de videojuegos</p>
+          <img src="imagen/program.jpeg" alt="" width="300px" />
+        </section>
+        <section id="proyect">
+          <h2>proyectos</h2>
+          <p>
+            edicion en blender de tractomula kenworth para el juego american
+            truck simulator
+          </p>
+          <img src="imagen/protecto.png" alt="" width="800px" />
+          <img src="imagen/protecto2.png" alt="" width="800px" />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NdLOFx3xYfY?si=Ma57H9aZrjzHOSYo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <table style="width: 50%">
+            <tr>
+              <th>inicio</th>
+              <th>juego</th>
+            </tr>
+            <tr>
+              <td>junio 2020</td>
+              <td>american truck</td>
+            </tr>
+            <tr>
+              <td>diciembre 2021</td>
+              <td>forza horizon 4</td>
+            </tr>
+            <tr>
+              <td>agosto 2023</td>
+              <td>blender</td>
+            </tr>
+            <tr>
+              <td>abril 2019</td>
+              <td>motorsport</td>
+            </tr>
+          </table>
+        </section>
+        <section id="server">
+          <h2>contactanos</h2>
+
+          <form action="">
+            <label for=""
+              >nombre completo
+              <input
+                type="text"
+                id="nombre"
+                placeholder="nombre completo"
+                required
+            /></label>
+            <label for=""
+              >correo
+              <input
+                type="email"
+                name="correo"
+                id="correo"
+                placeholder="@gmail"
+                required
+            /></label>
+            <label for=""
+              >comentario
+              <textarea
+                name="comentario"
+                id="comentario"
+                placeholder="escribe aqui tu comentario"
+              ></textarea>
+            </label>
+            <label for=""> <input type="submit" value="enviar" /></label>
+            <label for=""> <input type="reset" value="limpiar" /></label>
+          </form>
+        </section>
+        <li><a href="#star"> <span style="color: white;">inicio</span></a></li>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <ul class="social-icon">
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="icon-elem">
+          <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> servicio </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> acerca de nosotros </a>
+        </li>
+        <li class="menu-elem">
+          <a href="" class="menu-icon"> contacto </a>
+        </li>
+      </ul>
+      <p class="text">2024 | todos los derechos reservados</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
